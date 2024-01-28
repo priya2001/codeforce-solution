@@ -23,7 +23,7 @@ int main()
         {
              A=abs(a[i]-b[m-i-1]);
              B=abs(a[i]-b[n-i-1]);
-            res=res+max(A,B);
+             res=res+max(A,B);
         }
         
         cout<<res<<endl;
