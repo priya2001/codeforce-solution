@@ -16,7 +16,8 @@ int main()
             if(s[i]=='B')
             {
                 ans++;
-                i=i+k-1;
+                i=i+k;
+                i--;
             }
         }
         cout<<ans<<endl;
