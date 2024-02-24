@@ -1,11 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 int t, n;
-string a;
+string a; 
 int f = 1;
 int main()
 {
-    cin >> t;
+    cin >> t;  
     while (t--)
     {
         cin >> n >> a;
@@ -19,7 +19,7 @@ int main()
                 }
             }
         }
-        if (f == 1)
+        if (f == 1) // check yes or no.
         {
             cout << "YES" << endl;
         }
